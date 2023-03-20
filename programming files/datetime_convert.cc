@@ -6,9 +6,11 @@
 int main()
 {
     //No longer a string - Mish
-    std::string date_str = 2022-03-17 10:45:30;
+    // made a string - cooper
+    std::string date_str = "2022-03-17 10:45:30";
     std::tm date_obj = {};
     //Change variable name -Mish
+    // Fixed var name - cooper
     std::istringstream ss(date_str);
     //No semicolon - Mish
     // added semicolon - Cooper
