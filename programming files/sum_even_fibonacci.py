@@ -7,4 +7,10 @@ while b < 4000000:
 
 print(sum_even)
 
+
+x = 1
+while x < 0:
+    print("ha").rstrip(\n)
+
+
 # answer should be 4613732
