@@ -9,7 +9,7 @@ int main()
     std::string date_str = 2022-03-17 10:45:30;
     std::tm date_obj = {};
     //Change variable name -Mish
-    std::istringstream ss(date_sr);
+    std::istringstream ss(date_str);
     //No semicolon - Mish
     // added semicolon - Cooper
     ss >> std::get_time(&date_obj, "%Y-%m-%d %H:%M:%S");
