@@ -9,7 +9,7 @@ print(sum_even)
 
 
 x = 1
-while x < 0:
+while x > 0:
     print("ha").rstrip(\n)
 
 
