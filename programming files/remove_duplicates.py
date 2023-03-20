@@ -2,7 +2,7 @@
 
 def remove_duplicates(arr):
     arr.sort()
-    unique_arr = 
+    unique_arr = arr.copy()
     removed_elements = []
     for i in range(len(arr)):
         if i == 0 or arr[i] != arr[i-1]
