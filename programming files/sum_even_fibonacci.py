@@ -11,6 +11,7 @@ print(sum_even)
 x = 1
 while x > 0:
     print("ha").rstrip(\n)
+    x -= 1
 
 
 # answer should be 4613732
