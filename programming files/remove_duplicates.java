@@ -15,7 +15,7 @@ public class remove_duplicates {
         }
         return uniqueArr;
     }
-
+    // Causing chaos in the middle of the code >:D
     public static void main(String[] args) {
         // Test the function
         List<Integer> arr = Arrays.asList(1, 2, 2, 3, 4, 4, 5);
