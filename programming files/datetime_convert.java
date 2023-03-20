@@ -10,6 +10,6 @@ public class datetime_convert {
         String formattedDate = dateObj.format(DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm:ss"));
 
         // Print formatted date
-        System.out.println(formatttedDate);
+        System.out.println(formattedDate);
     }
 }
